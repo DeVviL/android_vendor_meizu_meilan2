@@ -375,7 +375,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/firmware/dsp_1_lwg_n.bin:/system/etc/firmware/dsp_1_lwg_n.bin \
     $(LOCAL_PATH)/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:/system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
     $(LOCAL_PATH)/etc/firmware/modem_1_lwg_n.img:/system/etc/firmware/modem_1_lwg_n.img \
-    $(LOCAL_PATH)/etc/firmware/WMT_so.cfg:/system/etc/firmware/WMT_so.cfg \
+    $(LOCAL_PATH)/etc/firmware/WMT_SOC.cfg:/system/etc/firmware/WMT_SOC.cfg \
     $(LOCAL_PATH)/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:/system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     $(LOCAL_PATH)/etc/firmware/catcher_filter_1_lwg_n.bin:/system/etc/firmware/catcher_filter_1_lwg_n.bin \
     $(LOCAL_PATH)/etc/audio_policy.conf:/system/etc/audio_policy.conf \
