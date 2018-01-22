@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     $(LOCAL_PATH)/lib/libimageio.so:system/lib/libimageio.so \
     $(LOCAL_PATH)/lib/libn3d3a.so:system/lib/libn3d3a.so \
-    $(LOCAL_PATH)/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so \
     $(LOCAL_PATH)/lib/libion.so:system/lib/libion.so \
     $(LOCAL_PATH)/lib/libem_sensor_jni.so:system/lib/libem_sensor_jni.so \
     $(LOCAL_PATH)/lib/libcam_platform.so:system/lib/libcam_platform.so \
@@ -130,11 +129,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
     $(LOCAL_PATH)/lib/libged.so:system/lib/libged.so \
     $(LOCAL_PATH)/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
-    $(LOCAL_PATH)/lib/libcfgdevparam.so:system/lib/libcfgdevparam.so \
     $(LOCAL_PATH)/lib/libcam.client.so:system/lib/libcam.client.so \
     $(LOCAL_PATH)/lib/libmmsdkservice.feature.so:system/lib/libmmsdkservice.feature.so \
     $(LOCAL_PATH)/lib/libdngop.so:system/lib/libdngop.so \
-    $(LOCAL_PATH)/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     $(LOCAL_PATH)/lib/libextsys.so:system/lib/libextsys.so \
     $(LOCAL_PATH)/lib/libbtstd.so:system/lib/libbtstd.so \
     $(LOCAL_PATH)/lib/libcam.device1.so:system/lib/libcam.device1.so \
@@ -293,12 +290,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
     $(LOCAL_PATH)/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
     $(LOCAL_PATH)/lib64/libged.so:system/lib64/libged.so \
-    $(LOCAL_PATH)/lib64/libcfgdevparam.so:system/lib64/libcfgdevparam.so \
     $(LOCAL_PATH)/lib64/libcam.client.so:system/lib64/libcam.client.so \
     $(LOCAL_PATH)/lib64/libmmsdkservice.feature.so:system/lib64/libmmsdkservice.feature.so \
     $(LOCAL_PATH)/lib64/libdngop.so:system/lib64/libdngop.so \
     $(LOCAL_PATH)/lib64/libEGL.so:system/lib64/libEGL.so \
-    $(LOCAL_PATH)/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
     $(LOCAL_PATH)/lib64/libextsys.so:system/lib64/libextsys.so \
     $(LOCAL_PATH)/lib64/libbtstd.so:system/lib64/libbtstd.so \
     $(LOCAL_PATH)/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
@@ -340,7 +335,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
     $(LOCAL_PATH)/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
     $(LOCAL_PATH)/lib64/libbtcusttable.so:system/lib64/libbtcusttable.so \
-    $(LOCAL_PATH)/lib64/libGLES_trace.so:system/lib64/libGLES_trace.so \
     $(LOCAL_PATH)/lib64/libMtkOmxG711Dec.so:system/lib64/libMtkOmxG711Dec.so \
     $(LOCAL_PATH)/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
     $(LOCAL_PATH)/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
@@ -384,7 +378,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
     $(LOCAL_PATH)/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
     $(LOCAL_PATH)/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
-    $(LOCAL_PATH)/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
     $(LOCAL_PATH)/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -466,7 +459,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libswscale.so:system/vendor/lib/libswscale.so \
     $(LOCAL_PATH)/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
     $(LOCAL_PATH)/vendor/lib/libffmpeg_omx.so:system/vendor/lib/libffmpeg_omx.so \
-    $(LOCAL_PATH)/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
     $(LOCAL_PATH)/vendor/lib/libh264enc_sb.ca7.so:system/vendor/lib/libh264enc_sb.ca7.so \
     $(LOCAL_PATH)/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     $(LOCAL_PATH)/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -491,4 +483,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libswscale.so:system/vendor/lib64/libswscale.so \
     $(LOCAL_PATH)/vendor/lib64/libffmpeg_omx.so:system/vendor/lib64/libffmpeg_omx.so \
     $(LOCAL_PATH)/vendor/lib64/libavutil.so:system/vendor/lib64/libavutil.so \
-    $(LOCAL_PATH)/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg
+    $(LOCAL_PATH)/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
+    $(LOCAL_PATH)/etc/init.d/91fixoverlays:system/init.d/91fixoverlays
