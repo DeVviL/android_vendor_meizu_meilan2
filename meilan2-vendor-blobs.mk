@@ -484,4 +484,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libffmpeg_omx.so:system/vendor/lib64/libffmpeg_omx.so \
     $(LOCAL_PATH)/vendor/lib64/libavutil.so:system/vendor/lib64/libavutil.so \
     $(LOCAL_PATH)/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
-    $(LOCAL_PATH)/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays
+    $(LOCAL_PATH)/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
+    $(LOCAL_PATH)/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    $(LOCAL_PATH)/lib64/libcameraservice.so:system/lib64/libcameraservice.so
