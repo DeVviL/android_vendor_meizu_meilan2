@@ -486,4 +486,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
     $(LOCAL_PATH)/etc/init.d/91fixoverlays:system/etc/init.d/91fixoverlays \
     $(LOCAL_PATH)/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    $(LOCAL_PATH)/lib64/libcameraservice.so:system/lib64/libcameraservice.so
+    $(LOCAL_PATH)/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
+    $(LOCAL_PATH)/bin/netd:system/bin/netd \
+    $(LOCAL_PATH)/bin/wpa_cli:system/bin/wpa_cli \
+    $(LOCAL_PATH)/bin/wpa_supplicant:system/bin/wpa_supplicant
