@@ -52,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/meilan2/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
     vendor/meizu/meilan2/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
     vendor/meizu/meilan2/proprietary/lib64/hw/sensors.mt6735.so:system/lib64/hw/sensors.mt6735.so \
-    vendor/meizu/meilan2/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/meizu/meilan2/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/meizu/meilan2/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/meizu/meilan2/proprietary/lib/libmnl.so:system/lib/libmnl.so \
