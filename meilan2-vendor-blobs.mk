@@ -351,6 +351,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
     $(LOCAL_PATH)/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
     $(LOCAL_PATH)/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
+    $(LOCAL_PATH)/lib64/libterservice.so:system/lib64/libterservice.so \
     $(LOCAL_PATH)/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
     $(LOCAL_PATH)/etc/audio_device.xml:system/etc/audio_device.xml \
     $(LOCAL_PATH)/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
